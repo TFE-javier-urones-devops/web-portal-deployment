@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: "nginx"
-  tag: "stable"
+  repository: "javierumunir/portal-tfe"
+  tag: "d77635322d8406f303a19b71dbdfc2b06a644819"
 
 service:
   type: ClusterIP
