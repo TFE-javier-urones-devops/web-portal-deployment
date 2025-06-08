@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: "javierumunir/portal-tfe"
-  tag: "264de98d8e545fec6f07096d8f9096ab4344d65e"
+  tag: "354b1848cb308206d5ff8efe98e4e4139ae53b55"
 
 service:
   type: ClusterIP
