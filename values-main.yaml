@@ -1,0 +1,19 @@
+replicaCount: 1
+
+image:
+  repository: "nginx"
+  tag: "stable"
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  className: nginx
+  hostname: "web-portal.javierum.com"
+  tlsSecret: "web-portal-prod-tls"
+  certManager:
+    enabled: true
+    clusterIssuer: "letsencrypt-prod"
+
+environment: "production"
